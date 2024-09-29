@@ -1,0 +1,24 @@
+1. Navigate to Desktop:
+   cd ~/Desktop
+
+2. Create a folder:
+   mkdir testFolder
+
+3. Navigate into the folder:
+   cd testFolder
+
+4. Create a text file:
+   touch test.txt
+
+5. Fetch website text into the file:
+   curl www.google.com > test.txt
+
+6. Replace occurrences of a word in the file:
+   sed -i '' 's/document/doc/g' test.txt
+
+7. View the file contents:
+   cat test.txt
+
+8. Modify the file:
+   vim test.txt
+   nano test.txt
